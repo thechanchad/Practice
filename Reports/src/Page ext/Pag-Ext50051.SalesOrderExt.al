@@ -4,6 +4,7 @@ pageextension 50051 "Sales Order Ext" extends "Sales Order"
     {
         addafter("&Print")
         {
+            //Pranav Commented This Hello Business central
             action("Genrate Report")
             {
                 ApplicationArea = All;
